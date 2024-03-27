@@ -25,7 +25,7 @@ poetry install
 
 ## build
 ```
-poetry buid
+poetry build
 ```
 とすると，publish に必要なファイル群が生成される．
 

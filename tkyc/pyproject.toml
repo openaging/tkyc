@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "tkyc"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "For verification of library development"
+authors = ["openaging <open.aging.info@gmail.com>"]
+license = "BSD-2-Clause"
 
 [tool.poetry.dependencies]
 python = "^3.10"

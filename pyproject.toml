@@ -3,6 +3,7 @@ name = "python-poetry-env"
 version = "0.1.0"
 description = "For verification of library development"
 authors = ["taxfree-python"]
+license = "BSD-2-Clause"
 
 [tool.poetry.dependencies]
 python = "^3.10"

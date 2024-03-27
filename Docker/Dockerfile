@@ -14,3 +14,6 @@ COPY pyproject.toml poetry.lock* /app/
 # 依存関係のインストール
 RUN poetry config virtualenvs.create false && \
     poetry install --no-interaction --no-ansi
+
+# プロジェクトファイルのコピー
+COPY .. /app

@@ -1,7 +1,7 @@
 # How to set up 
 ```
-docker build -t {image_name} .
+docker compose -f ./Docker/docker-compose.yaml up --build -d
 ```
 ```
-docker run -it --rm --name {container_name} -v $(pwd):/app {image_name} bash
+docker exec -it tkyc bash    
 ```

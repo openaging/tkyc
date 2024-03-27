@@ -14,7 +14,7 @@ docker exec -it tkyc bash
 
 ## test
 
-```
+```git add .
 poetry run pytest -v
 ```
 

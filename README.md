@@ -54,3 +54,22 @@ poetry publish -r testpypi
 ```
 
 とするとこで，Test PyPI にパッケージをアップロードできる．
+
+# このリポジトリのブランチ
+
+以下の順序でマージしていく
+main←staging←dev
+
+一人がプルリクをチェックしてマージ
+dev_XXX で開発・プロジェクト管理
+
+連動させる
+staging : testpypi
+main : pypi
+
+base
+テンプレートとして、ベースとなるこのリポジトリを取り込むため
+(template が更新され、別のプロジェクトもその変更を取り入れたいとき、base ブランチにフェッチして取り込んで、dev にマージする)
+→ このリポジトリは、常に main と base が同等にないといけない。(開発用のライブラリ用のリポジトリは全然違くて良い。出発点だけ揃える。)
+
+参考 : [Github branch](https://scrapbox.io/openaging/Github_branch)
